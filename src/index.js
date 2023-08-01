@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 const cookieParser = require('cookie-parser');
 dotenv.config({ Path: "../.env" });
 // app.use(cors());
-app.use(express.static('build'));
+app.use(express.static('/moviefrontend/build'));
 app.use(cookieParser());
 // Let Our project understand JSON middleware USED
 app.use(express.json());
