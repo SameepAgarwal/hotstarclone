@@ -1,0 +1,6 @@
+.env
+/node_modules
+package-lock.json
+moviefrontend/node_modules
+moviefrontend/package.json
+moviefrontend/src/Moviesdbyme.js
