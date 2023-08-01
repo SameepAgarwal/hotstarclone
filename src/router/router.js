@@ -68,7 +68,7 @@ router.get('/userdb', async (req, res) => {
     res.json(dataBase);
 });
 
-router.get('/*', (req, res) => {
-    res.redirect('/');
-});
+// router.get('/*', (req, res) => {
+//     res.redirect('/');
+// });
 module.exports = router;
