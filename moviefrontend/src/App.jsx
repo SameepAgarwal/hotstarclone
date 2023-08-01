@@ -25,7 +25,7 @@ function App() {
           <Route path='/tv' element={<Tv />} />
           <Route path='/signin' element={<Signin />} />
           <Route path='/prompt' element={<Prompt />} />
-          <Route path='/*' element={<Error />} />
+          {/* <Route path='/*' element={<Error />} /> */}
         </Routes>
       </BrowserRouter>
     </userContext.Provider>
